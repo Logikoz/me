@@ -1,0 +1,13 @@
+.siteBottom {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+.github {
+    padding: 15px;
+}
