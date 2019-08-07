@@ -1,25 +1,37 @@
-.siteBottom {
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font: 16px Sans-Serif;
+}
+
+header {
     position: fixed;
+    width: 100%;
+    background: gray;
+    color: white;
+}
+
+section {
+    padding: 80px 0px 0px 0px;
+}
+
+footer {
+    background: gray;
+    color: white;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: gray;
-    color: white;
 }
 
-.siteTop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-color: gray;
-    color: white;
-}
-
-.siteContent {
+.logo{
+    padding: 10px;
 }
 
 .github {
     padding: 15px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
 }
