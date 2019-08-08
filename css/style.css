@@ -6,24 +6,16 @@ body {
     font: 16px Sans-Serif;
 }
 
-header {
-    position: fixed;
-    width: 100%;
-    background: gray;
-    color: white;
-}
-
 section {
-    padding: 80px 0px 0px 0px;
+    padding: 80px 30px 0px 30px;
 }
 
 footer {
-    background: gray;
+    background-color: #212529;
     color: white;
-    bottom: 0;
 }
 
-.logo{
+.logo {
     padding: 10px;
 }
 
