@@ -6,6 +6,11 @@ body {
     font: 16px Sans-Serif;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 section {
     padding: 80px 30px 0px 30px;
 }
