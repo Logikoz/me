@@ -1,7 +1,3 @@
-* {
-    box-sizing: content-box;
-}
-
 body {
     font: 16px Sans-Serif;
 }
@@ -20,6 +16,6 @@ html, body {
     margin: 0;
 }
 
-.btn-radius{
+.btn-radius {
     border-radius: 20px;
 }
