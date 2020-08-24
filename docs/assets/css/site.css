@@ -13,6 +13,9 @@
 		background-color: transparent;
 		border-bottom: 0;
 	}
+	#mainNav .navbar-toggler {
+		border: 0;
+	}
 	.nav-mobile-bg {
 		background-color: #505050ed;
 		padding-left: 20px;
