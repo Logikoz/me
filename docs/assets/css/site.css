@@ -1,5 +1,20 @@
-.custom-border-bottom
-{
+.custom-border-bottom {
 	border-bottom: 2px solid;
 	border-bottom-color: #9d0af5;
+}
+
+#mainNav {
+	background-color: transparent;
+	border-bottom: 0;
+}
+
+@media (max-width: 500px) {
+	#mainNav {
+		background-color: transparent;
+		border-bottom: 0;
+	}
+	.nav-mobile-bg {
+		background-color: #505050ed;
+		padding-left: 20px;
+	}
 }
