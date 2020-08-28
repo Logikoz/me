@@ -41,6 +41,7 @@
 	border-radius: 5px;
 	border-color: transparent;
 	margin: 7px;
+	background-color: #80808078;
 }
 
 .card img {
@@ -57,5 +58,4 @@
 	padding-bottom: 15px;
 	text-align: start;
 	color: white;
-	background-color: #4b4b4b96;
 }
