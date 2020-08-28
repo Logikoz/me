@@ -1,37 +1,28 @@
-.custom-border-bottom
-{
+.custom-border-bottom {
 	border-bottom: 2px solid;
 	border-bottom-color: #9d0af5;
 }
 
-#mainNav
-{
+#mainNav {
 	background-color: transparent;
 	border-bottom: 0;
 }
 
-@media (max-width: 500px)
-{
-	#mainNav
-	{
+@media (max-width: 500px) {
+	#mainNav {
 		background-color: transparent;
 		border-bottom: 0;
 	}
-
-		#mainNav .navbar-toggler
-		{
-			border: 0;
-		}
-
-	.nav-mobile-bg
-	{
+	#mainNav .navbar-toggler {
+		border: 0;
+	}
+	.nav-mobile-bg {
 		background-color: #505050ed;
 		padding-left: 20px;
 	}
 }
 
-.chip
-{
+.chip {
 	display: inline-block;
 	color: white;
 	margin: 5px;
@@ -41,4 +32,30 @@
 	line-height: 50px;
 	border-radius: 25px;
 	background-color: #80808078;
+}
+
+.card {
+	box-shadow: 0 20px 20px 0 rgba(10, 0, 0, 10);
+	transition: 0.4s;
+	width: 25%;
+	border-radius: 5px;
+	border-color: transparent;
+	margin: 7px;
+}
+
+.card img {
+	border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-project-description {
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: start;
+	color: white;
+	background-color: #4b4b4b96;
 }
