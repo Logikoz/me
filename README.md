@@ -5,10 +5,10 @@ A ideia desse projeto é desenvolver um site estático para ser meu "portifolio"
 
 ## TODO
 - [x] Criar template base
-- [ ] Criar template de chips para as skills
-- [ ] Adicionar sessao para mostrar todas minhas skills
-- [ ] Criar template de cards para os projetos
-- [ ] Adicionar sessao para mostrar meus projetos
+- [x] Criar template de chips para as skills
+- [x] Adicionar sessao para mostrar todas minhas skills
+- [x] Criar template de cards para os projetos
+- [x] Adicionar sessao para mostrar meus projetos
 - [ ] Adicionar botao para ir para o blog (necessario criar o blog antes :D)
 
 ### Licenca [MIT](https://github.com/Logikoz/me/blob/master/LICENSE)
