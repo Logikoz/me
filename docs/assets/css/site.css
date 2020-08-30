@@ -1,3 +1,21 @@
+.fixed-bottom-github {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #5c5c5cc4;
+	border-radius: 5em;
+	margin: 15px;
+	box-shadow: 0 20px 20px 0 rgba(10, 0, 0, 10);
+	z-index: 1;
+}
+
+.fixed-bottom-github-icon {
+	width: 45px;
+	height: 45px;
+	padding-top: 3px;
+	padding-left: 1px;
+}
+
 .custom-border-bottom {
 	border-bottom: 2px solid;
 	border-bottom-color: #9d0af5;
@@ -19,6 +37,9 @@
 	.nav-mobile-bg {
 		background-color: #505050ed;
 		padding-left: 20px;
+	}
+	.fixed-bottom-github {
+		margin: 10px;
 	}
 }
 
