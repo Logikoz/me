@@ -9,6 +9,7 @@ A ideia desse projeto é desenvolver um site estático para ser meu "portifolio"
 - [x] Adicionar sessao para mostrar todas minhas skills
 - [x] Criar template de cards para os projetos
 - [x] Adicionar sessao para mostrar meus projetos
+- [ ] Arrumar imagem nos cards dos projetos
 - [ ] Adicionar botao para ir para o blog (necessario criar o blog antes :D)
 
 ### Licenca [MIT](https://github.com/Logikoz/me/blob/master/LICENSE)
