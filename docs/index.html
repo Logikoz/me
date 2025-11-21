@@ -84,7 +84,6 @@
 					<!-- Cloud Platforms -->
 					<div class="chip">Azure</div>
 					<div class="chip">AWS</div>
-					<div class="chip">GCP</div>
 					<div class="chip">On-premisse</div>
 					
 					<!-- DevOps and Infrastructure -->
@@ -107,6 +106,7 @@
 					
 					<!-- Data and GIS -->
 					<div class="chip">SQL</div>
+					<div class="chip">NoSQL</div>
 					<div class="chip">GIS</div>
 					
 					<!-- AI and GPT -->
@@ -126,14 +126,12 @@
 					<img src="https://avatars0.githubusercontent.com/u/37851168?s=460&u=96d2b639dd1bf85a69d6568308ce9139c43dea23&v=4"
 						style="border-radius: 50%; margin-bottom: 20px;" width="100px" height="100px"/>
 					<p>
-						Sou um garoto de 24 aninhos apaixonado por tecnologia em geral<br>E estudando muito sobre as
-						tecnológias do .NET
+						Sou um garoto de <span id="idade"></span> aninhos apaixonado por tecnologia em geral<br>E estudando muito sobre Arquitetura de Software.
 					</p>
 					<p>
-						Tenho mais de 6 anos de experiencia com&nbsp;
-						<span class="custom-border-bottom">C#</span>, e exclusivamente C#😄<br>Tambem tive bastante
-						contato com
-						<span class="custom-border-bottom">Azure Cloud/Devops</span>, <span class="custom-border-bottom">Agile</span>, <span class="custom-border-bottom">Microsserviços</span> durante esse tempo
+						Tenho bastante experiencia com&nbsp;
+						<span class="custom-border-bottom">C#</span>,
+						<span class="custom-border-bottom">Azure Devops/Jira</span>, <span class="custom-border-bottom">Arquitetura de Software</span> e <span class="custom-border-bottom">Redes de Computadores</span>.
 					</p>
 					<p>
 						Gosto de trabalhar em projetos de IoT com&nbsp;
@@ -157,7 +155,7 @@
 					</a>
 				</div>
 			</div>
-			<p class="copyright">LOGIKOZ.NET © 2020<br></p>
+			<p class="copyright">LOGIKOZ.NET © Programando desde 2012 até o Presente<br></p>
 		</div>
 	</footer>
 	</div>
@@ -166,6 +164,17 @@
 	<script src="assets/js/jquery.easing.min.js"></script>
 	<script src="assets/js/grayscale.js"></script>
 	<script src="assets/js/site.js"></script>
+	<script>
+    function calcularIdadeAno(anoNascimento) {
+        const anoAtual = new Date().getFullYear();
+        return anoAtual - anoNascimento;
+    }
+
+    // Coloque aqui apenas o ANO de nascimento
+    const minhaIdade = calcularIdadeAno(2000);
+
+    document.getElementById("idade").textContent = minhaIdade;
+</script>
 </body>
 
 </html>
